@@ -76,7 +76,7 @@ var DisplayComponent = (function () {
     }
     DisplayComponent = __decorate([
         angular2_1.Component({
-            appInjector: [FriendsService],
+            hostInjector: [FriendsService],
             selector: 'display'
         }),
         angular2_1.View({

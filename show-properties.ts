@@ -58,7 +58,7 @@ class TodoListFp {
 }
 
 @Component({
-  appInjector: [FriendsService],
+  hostInjector: [FriendsService],
   selector: 'display'
 })
 @View({
