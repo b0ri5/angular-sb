@@ -1,0 +1,11 @@
+<p>My name: {{ myName }}</p>
+<ul>
+  <li *ng-for="#name of names">
+    {{ name }}
+  </li>
+</ul>
+<p *ng-if="names.length > 3">You have many friends!</p>
+<input #my (keydown)>
+<p>{{ my.value }}</p>
+<todo-list></todo-list>
+<todo-listfp></todo-listfp>
