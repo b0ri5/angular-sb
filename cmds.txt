@@ -1,0 +1,4 @@
+tsd install angular2 es6-promise rx rx-lite
+http-server -c-1
+tsc --watch -m commonjs -t es5 --emitDecoratorMetadata show-properties.ts
+npm install immutable
